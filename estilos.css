@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}  
+ul {
+    list-style: none;
+}
+li {
+    margin-bottom: 5px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+} 
+#informacion-personal ul {
+    padding-left: 0;
+}
+#informacion-personal li {
+    display: inline;
+    margin-right: 20px;
+}
+#experiencia article,
+#educacion article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+#experiencia article h3,
+#educacion article h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
